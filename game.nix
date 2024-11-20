@@ -57,16 +57,7 @@
         }
       ];
 
-      soundPacks = [
-        {
-          name = "CC-Sounds+MusicOnly";
-          subdirs = [ ];
-          src = pkgs.fetchzip {
-            url = "https://github.com/Fris0uman/CDDA-Soundpacks/releases/download/2024-10-27/CO.AG-music-only.zip";
-            hash = "sha256-pe8jeGM2CVeFkBg5l/EODgTXO2de44MaiFLZAntMkMs=";
-          };
-        }
-      ];
+      soundPacks = [ ];
 
       tileSets = [ ];
     };
