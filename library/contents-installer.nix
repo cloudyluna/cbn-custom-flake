@@ -70,5 +70,5 @@ let
   );
 in
 {
-  installExtraContents = installExtraContents;
+  install = installExtraContents;
 }

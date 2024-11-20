@@ -36,7 +36,7 @@
               extraContents = module.game.stable.extras;
             in
             {
-              prePatch = (module.contentsInstaller.installExtraContents extraContents ".");
+              prePatch = (module.contentsInstaller.install extraContents ".");
               patchFlags = [
                 "-p1"
                 "-d"

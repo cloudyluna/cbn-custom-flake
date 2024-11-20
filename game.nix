@@ -1,3 +1,4 @@
+{ pkgs, lib }:
 {
   stable = rec {
     version = "v0.6.0";
@@ -56,7 +57,16 @@
         }
       ];
 
-      soundPacks = [ ];
+      soundPacks = [
+        {
+          name = "CC-Sounds";
+          subdirs = [ ];
+          src = pkgs.fetchzip {
+            url = "https://github.com/Fris0uman/CDDA-Soundpacks/releases/download/2024-10-27/CC-Sounds.zip";
+            hash = "sha256-Or2gXcaVtcS7NPWKPvy5Lo4BgyrrU1kZpYLcyOuVxZM=";
+          };
+        }
+      ];
 
       tileSets = [ ];
     };
