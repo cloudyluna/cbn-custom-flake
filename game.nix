@@ -59,16 +59,33 @@
 
       soundPacks = [
         {
-          name = "CC-Sounds";
+          name = "CC-Sounds+MusicOnly";
           subdirs = [ ];
           src = pkgs.fetchzip {
-            url = "https://github.com/Fris0uman/CDDA-Soundpacks/releases/download/2024-10-27/CC-Sounds.zip";
-            hash = "sha256-Or2gXcaVtcS7NPWKPvy5Lo4BgyrrU1kZpYLcyOuVxZM=";
+            url = "https://github.com/Fris0uman/CDDA-Soundpacks/releases/download/2024-10-27/CO.AG-music-only.zip";
+            hash = "sha256-pe8jeGM2CVeFkBg5l/EODgTXO2de44MaiFLZAntMkMs=";
           };
         }
       ];
 
       tileSets = [ ];
+    };
+    expanded = {
+      mods = [ ] ++ extras.mods;
+      soundPacks = [
+        {
+          name = "Otopack+ModsUpdates";
+          subdirs = [ "Otopack+ModsUpdates" ];
+          src = pkgs.fetchzip {
+            url =
+              "https://github.com/Kenan2000/Otopack-Mods-Updates/"
+              + "archive/refs/tags/"
+              + "Otopack+ModsUpdates_09.03.2024.tar.gz";
+            hash = "sha256-CzqDyPsFWKb6gJYserVd2X8nfJY2cugQNfC/0opLdvo=";
+          };
+        }
+      ] ++ extras.soundPacks;
+      tileSets = [ ] ++ extras.tileSets;
     };
   };
 }

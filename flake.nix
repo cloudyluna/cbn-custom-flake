@@ -1,6 +1,6 @@
 {
   description = ''
-    cbb-custom-flake: A nix flake to install pre-built CBN games bundled
+    cbn-custom-flake: A nix flake to install pre-built CBN games bundled
     with my preferred modifications and patches.
   '';
 
@@ -29,6 +29,14 @@
       in
       rec {
         packages = rec {
+          expanded = extras.overrideAttrs (
+            let
+              extraContents = module.game.stable.expanded;
+            in
+            {
+              prePatch = (module.contentsInstaller.install extraContents ".");
+            }
+          );
 
           # With extra mods and all the goodies I like.
           extras = default.overrideAttrs (
