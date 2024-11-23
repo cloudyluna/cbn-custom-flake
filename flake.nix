@@ -22,13 +22,23 @@
     flake-utils.lib.eachSystem supportedSystems (
       system:
       let
-        prelude = import ./default.nix { inherit pkgs lib; };
         pkgs = import nixpkgs { inherit system; };
         lib = pkgs.lib;
-        module = import ./default.nix { inherit pkgs lib; };
+        pinnedSources =
+          with pkgs;
+          (import ./_sources/generated.nix {
+            inherit
+              fetchurl
+              fetchgit
+              fetchFromGitHub
+              dockerTools
+              ;
+          });
+        module = import ./default.nix { inherit pkgs lib pinnedSources; };
       in
       rec {
         packages = rec {
+
           expanded = extras.overrideAttrs (
             let
               extraContents = module.game.stable.expanded;
@@ -144,11 +154,8 @@
             in
             pkgs.stdenvNoCC.mkDerivation {
               name = "cbn-tiles-launcher";
-              version = game.stable.version;
-              src = pkgs.fetchurl {
-                url = game.stable.archiveUrl;
-                hash = game.stable.hash;
-              };
+              version = game.stable.gameSource.version;
+              src = game.stable.gameSource.src;
 
               nativeBuildInputs = with pkgs; [ autoPatchelfHook ];
 

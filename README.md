@@ -28,6 +28,15 @@ and run `cbn-tiles-launcher` to play.
 
 If you want music too, replace `#extras` with `#expanded`.
 
+## To update game and contents manually
+We use [nvfetcher](https://github.com/berberman/nvfetcher/blob/master/README.md) to run automatic content updates. For more info, see what you can do with nvfetcher.
+
+Game and bundled contents versions are pinned in [_sources/generated.nix](/_sources/generated.nix).
+
+> Warning: Updates doesn't guarantee stability. Things might break. Always check content changelog before update.
+
+To update: `nix develop --command make update` 
+
 ## User folder
 Saves are located in `$HOME/.cbn-custom`.
 

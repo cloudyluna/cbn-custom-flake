@@ -1,0 +1,76 @@
+{
+    "game-cbn-tiles-stable-prebuilt": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "game-cbn-tiles-stable-prebuilt",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "sha256": "sha256-hWQVJHPoGWeyf52LzBRbmZfOmekZiTlEMtklxWdbdMA=",
+            "type": "tarball",
+            "url": "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/v0.6.0/cbn-linux-tiles-x64-v0.6.0.tar.gz"
+        },
+        "version": "v0.6.0"
+    },
+    "mod-jackledead-armory": {
+        "cargoLocks": null,
+        "date": "2024-11-19",
+        "extract": null,
+        "name": "mod-jackledead-armory",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "jackledead",
+            "repo": "jackledead_armory",
+            "rev": "7262ba982a83f37cb1b12cac58e5f053a44a1833",
+            "sha256": "sha256-ta0JTM9asi+7CgdEM0KqjkqD2QQqkdTRbHTdwWthxB8=",
+            "type": "github"
+        },
+        "version": "7262ba982a83f37cb1b12cac58e5f053a44a1833"
+    },
+    "mod-tankmod-revived": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "mod-tankmod-revived",
+        "passthru": null,
+        "pinned": true,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "chaosvolt",
+            "repo": "cdda-tankmod-revived-mod",
+            "rev": "11a52995bdbdd9bc5ec66b058a5aaef755f96691",
+            "sha256": "sha256-siT86Pgrb+c5/WZTdib2O0njCUHSC04vYRX8NLjKqMQ=",
+            "type": "github"
+        },
+        "version": "11a52995bdbdd9bc5ec66b058a5aaef755f96691"
+    },
+    "soundpack-otopack": {
+        "cargoLocks": null,
+        "date": "2024-08-10",
+        "extract": null,
+        "name": "soundpack-otopack",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Kenan2000",
+            "repo": "Otopack-Mods-Updates",
+            "rev": "508da9f0e38ec996f14c930c58848024680ca2be",
+            "sha256": "sha256-t8MplRma2A2yVw9P8SU4rf7lt1dP2KWna7EQfakZ1Zg=",
+            "type": "github"
+        },
+        "version": "508da9f0e38ec996f14c930c58848024680ca2be"
+    }
+}

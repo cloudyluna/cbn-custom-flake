@@ -7,5 +7,6 @@ mkShell {
     nixfmt-rfc-style
     gnumake
     jq
+    nvfetcher
   ];
 }
