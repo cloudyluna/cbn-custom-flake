@@ -1,17 +1,17 @@
 {
-    "game-cbn-tiles-stable-prebuilt": {
+    "game-cbn-tiles-nightly-prebuilt": {
         "cargoLocks": null,
         "date": null,
         "extract": null,
-        "name": "game-cbn-tiles-stable-prebuilt",
+        "name": "game-cbn-tiles-nightly-prebuilt",
         "passthru": null,
         "pinned": false,
         "src": {
-            "sha256": "sha256-hWQVJHPoGWeyf52LzBRbmZfOmekZiTlEMtklxWdbdMA=",
+            "sha256": "sha256-nXwqHIu29xiTHChPKwnLcpXd0/x73ba0S8pUoXBByiA=",
             "type": "tarball",
-            "url": "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/v0.6.0/cbn-linux-tiles-x64-v0.6.0.tar.gz"
+            "url": "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/2024-11-22/cbn-linux-tiles-x64-2024-11-22.tar.gz"
         },
-        "version": "v0.6.0"
+        "version": "2024-11-22"
     },
     "mod-jackledead-armory": {
         "cargoLocks": null,
@@ -35,11 +35,11 @@
     },
     "mod-tankmod-revived": {
         "cargoLocks": null,
-        "date": null,
+        "date": "2024-11-18",
         "extract": null,
         "name": "mod-tankmod-revived",
         "passthru": null,
-        "pinned": true,
+        "pinned": false,
         "src": {
             "deepClone": false,
             "fetchSubmodules": false,
@@ -47,11 +47,11 @@
             "name": null,
             "owner": "chaosvolt",
             "repo": "cdda-tankmod-revived-mod",
-            "rev": "11a52995bdbdd9bc5ec66b058a5aaef755f96691",
-            "sha256": "sha256-siT86Pgrb+c5/WZTdib2O0njCUHSC04vYRX8NLjKqMQ=",
+            "rev": "90dd870d4465ab1c9b40d7d139017084abaffc3b",
+            "sha256": "sha256-YZCHWhlkbN7BeHmYMHuC04VoQxsXwPf3uHKc+BaKz8c=",
             "type": "github"
         },
-        "version": "11a52995bdbdd9bc5ec66b058a5aaef755f96691"
+        "version": "90dd870d4465ab1c9b40d7d139017084abaffc3b"
     },
     "soundpack-otopack": {
         "cargoLocks": null,

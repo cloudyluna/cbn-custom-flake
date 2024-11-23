@@ -87,7 +87,7 @@
                     cp --no-preserve=mode -R $out/data $out/gfx $out/share/doc "\$content_dir/"
                 fi
 
-                "$out/bin/cataclysm-tiles" --basepath "\$content_dir" --userdir "\$userdir"
+                "$out/bin/cataclysm-bn-tiles" --basepath "\$content_dir" --userdir "\$userdir"
 
                 EOF
 
@@ -109,7 +109,7 @@
                 mkdir -p $out
                 cp -R data gfx doc $out
 
-                install -m755 -D cataclysm-tiles $out/bin/cataclysm-tiles
+                install -m755 -D cataclysm-bn-tiles $out/bin/cataclysm-bn-tiles
 
                 ${writeLauncherScript}
 
@@ -132,7 +132,7 @@
                     userdir="\$1"
                 fi
 
-                $out/bin/cataclysm-tiles --basepath $out --userdir "\$userdir"
+                $out/bin/cataclysm-bn-tiles --basepath $out --userdir "\$userdir"
 
                 EOF
 
@@ -145,7 +145,7 @@
                 mkdir -p $out
                 cp -R data gfx doc $out
 
-                install -m755 -D cataclysm-tiles $out/bin/cataclysm-tiles
+                install -m755 -D cataclysm-bn-tiles $out/bin/cataclysm-bn-tiles
 
                 ${writeLauncherScript}
 

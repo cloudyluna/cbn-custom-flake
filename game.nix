@@ -5,7 +5,7 @@
 }:
 {
   stable = rec {
-    gameSource = pinnedSources.game-cbn-tiles-stable-prebuilt;
+    gameSource = pinnedSources.game-cbn-tiles-nightly-prebuilt;
     extras = {
       /*
         # Add, edit or remove mods/sound packs here.
