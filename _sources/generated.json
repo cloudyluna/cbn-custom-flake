@@ -7,11 +7,11 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "sha256": "sha256-nXwqHIu29xiTHChPKwnLcpXd0/x73ba0S8pUoXBByiA=",
+            "sha256": "sha256-YFgbmquR8R8bblzhuP3e4WbEd57y+/BAltaN0yvNszs=",
             "type": "tarball",
-            "url": "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/2024-11-22/cbn-linux-tiles-x64-2024-11-22.tar.gz"
+            "url": "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/2024-11-24/cbn-linux-tiles-x64-2024-11-24.tar.gz"
         },
-        "version": "2024-11-22"
+        "version": "2024-11-24"
     },
     "mod-jackledead-armory": {
         "cargoLocks": null,

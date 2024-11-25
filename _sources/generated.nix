@@ -3,10 +3,10 @@
 {
   game-cbn-tiles-nightly-prebuilt = {
     pname = "game-cbn-tiles-nightly-prebuilt";
-    version = "2024-11-22";
+    version = "2024-11-24";
     src = fetchTarball {
-      url = "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/2024-11-22/cbn-linux-tiles-x64-2024-11-22.tar.gz";
-      sha256 = "sha256-nXwqHIu29xiTHChPKwnLcpXd0/x73ba0S8pUoXBByiA=";
+      url = "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/2024-11-24/cbn-linux-tiles-x64-2024-11-24.tar.gz";
+      sha256 = "sha256-YFgbmquR8R8bblzhuP3e4WbEd57y+/BAltaN0yvNszs=";
     };
   };
   mod-jackledead-armory = {
