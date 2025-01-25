@@ -1,10 +1,11 @@
 # cbn-custom-flake
 
 A simple nix flake to install Cataclysm: Bright Nights with my
-preferred set of mods. Currently I'm targeting v0.6.0 (stable) version of CBN and their compatible mods.
-For nightly CBN, see [nightly branch](https://github.com/cloudyluna/cbn-custom-flake/tree/nightly).
+preferred set of mods.
 
 This flake is largely derived from my own custom [CDDA experimental flake](https://github.com/cloudyluna/cdda-custom-experimental).
+
+Currently base game is pinned to v0.7.0.
 
 (WIP) Documentation in-progress.
 

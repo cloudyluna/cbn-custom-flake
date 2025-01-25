@@ -1,11 +1,11 @@
+# We pinned the base game v0.7.0 for now.
 [game-cbn-tiles-stable-prebuilt]
 src.github_tag = "cataclysmbnteam/Cataclysm-BN"
-src.include_regex = "v\\d+.\\d+.\\d+"
-fetch.tarball = "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/$ver/cbn-linux-tiles-x64-$ver.tar.gz"
+fetch.tarball = "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/v0.7.0/cbn-linux-tiles-x64-v0.7.0.tar.gz"
 
-# Tankmod is pinned atm because latest updates aren't compatible with cbn v0.6.0
+# Pinned to supported v0.7.0 version
 [mod-tankmod-revived]
-src.manual = "11a52995bdbdd9bc5ec66b058a5aaef755f96691"
+src.manual = "8f656072e519be699e6a4caf78ca69451db6d290"
 fetch.github = "chaosvolt/cdda-tankmod-revived-mod"
 pinned = true
 

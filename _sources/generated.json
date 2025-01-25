@@ -7,11 +7,11 @@
         "passthru": null,
         "pinned": false,
         "src": {
-            "sha256": "sha256-hWQVJHPoGWeyf52LzBRbmZfOmekZiTlEMtklxWdbdMA=",
+            "sha256": "sha256-6r+LcowWp6SbL7NP+2ZgPz248hKJgQPdJNr/TRqS8io=",
             "type": "tarball",
-            "url": "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/v0.6.0/cbn-linux-tiles-x64-v0.6.0.tar.gz"
+            "url": "https://github.com/cataclysmbnteam/Cataclysm-BN/releases/download/v0.7.0/cbn-linux-tiles-x64-v0.7.0.tar.gz"
         },
-        "version": "v0.6.0"
+        "version": "1454"
     },
     "mod-jackledead-armory": {
         "cargoLocks": null,
@@ -47,11 +47,11 @@
             "name": null,
             "owner": "chaosvolt",
             "repo": "cdda-tankmod-revived-mod",
-            "rev": "11a52995bdbdd9bc5ec66b058a5aaef755f96691",
-            "sha256": "sha256-siT86Pgrb+c5/WZTdib2O0njCUHSC04vYRX8NLjKqMQ=",
+            "rev": "8f656072e519be699e6a4caf78ca69451db6d290",
+            "sha256": "sha256-tf3yQbZo+s+yvet3I8on3e8RLswztSOOy1Uvi5Ha3/Y=",
             "type": "github"
         },
-        "version": "11a52995bdbdd9bc5ec66b058a5aaef755f96691"
+        "version": "8f656072e519be699e6a4caf78ca69451db6d290"
     },
     "soundpack-otopack": {
         "cargoLocks": null,
